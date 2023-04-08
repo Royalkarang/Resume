@@ -1,0 +1,78 @@
+body{
+    background-color: #cfc9da;
+    font-family: 'Courier New', Courier, monospace;
+}
+.form{
+    height: auto;
+    margin: auto;
+    font-size: larger;
+}
+.logo{
+    width: 45%;
+    height: 20%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 30px;  
+}
+.required{
+    font-size: 13px;
+    color: red;
+}
+.title{
+    height: 150px;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 10px;
+    border-top: 10px solid #67003c;
+    padding: 25px;
+}
+.question-title{
+    height: auto;
+    width: 600px;
+    background-color: #FDFEFE;
+    margin: 15px;
+    border-radius: 10px;
+    border-top: 10px;
+    padding: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.input1{
+    width: 300px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #dcd7d7;
+}
+.submitb{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.submitb:hover{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.footer{
+    width: 45%;
+    height: 20%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 30px; 
+    float: right; 
+}

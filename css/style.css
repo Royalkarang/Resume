@@ -1,0 +1,109 @@
+header{
+    height: fixed;
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    background: rgb(9, 202, 176);
+    overflow: hidden;
+}
+body{
+    display: contents;
+    width:100%;
+    height:min-content;
+    background-color: wheat;
+    display: initial;
+}
+nav div{
+    list-style-type: none;
+}
+.logo{
+    width: 40%;
+    height: 20%;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    display: flex;
+}
+.navBody{
+    width: 8%;
+    height: 20%;
+    font-family: URW Chancery L, cursive;
+    padding: 35px;
+    float: left;
+    text-decoration:none;
+}
+img{
+    width: auto;
+    border: 5px;
+    border-radius: 50%;
+    margin-left: 18%;
+    margin-top: 80px;
+    float: left;
+}
+.BodyContent{
+    width: 40%;
+    height: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 134px;
+    margin-left: 35px;
+}
+marquee{
+    width: 100%;
+}
+button{
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    font-family: Marker Felt, fantasy;
+    font-size: larger;
+    font: 1em sans-serif;
+}
+.follow{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+.follow-li{
+    width: 75px;
+    text-align: center;
+}
+.follow img{
+    width: 45px;
+    height: 40px;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom:auto;
+}
+footer{
+    width: 100%;
+    display: block;
+    float: right;
+    background: wheat;
+    overflow: hidden;
+}
+footer div{
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-call{
+    padding: 40px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    margin-left: 0;
+}
+.footer-p{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
